@@ -7,6 +7,9 @@ export default defineConfig({
   plugins: [
     foundry({
       project: '../contracts',
+      include: [
+        "Crowdfund.sol/**"
+      ]
     }),
   ],
 })
